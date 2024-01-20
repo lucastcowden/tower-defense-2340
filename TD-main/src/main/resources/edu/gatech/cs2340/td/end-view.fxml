@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="endPane" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.gatech.cs2340.td.EndController">
+   <Label fx:id="endText" alignment="CENTER" contentDisplay="CENTER" layoutX="266.0" layoutY="34.0" prefHeight="78.0" prefWidth="428.0" text="Rats! The enemies have destroyed the monument :(would you like to play again?" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="22.0" />
+      </font></Label>
+   <Button fx:id="restartGame" alignment="CENTER" contentDisplay="CENTER" layoutX="434.0" layoutY="287.0" mnemonicParsing="false" onAction="#onRestartGameClick" prefHeight="50.0" prefWidth="92.0" text="Play Again" />
+   <Button fx:id="quitGame" alignment="CENTER" contentDisplay="CENTER" layoutX="434.0" layoutY="393.0" mnemonicParsing="false" onAction="#onQuitGameClicked" prefHeight="50.0" prefWidth="92.0" text="Quit" />
+   <VBox layoutX="380.0" layoutY="140.0" prefHeight="103.0" prefWidth="240.0">
+      <children>
+         <Text fx:id="towerStat" strokeType="OUTSIDE" strokeWidth="0.0" text="Towers Placed: ">
+            <font>
+               <Font size="22.0" />
+            </font>
+         </Text>
+         <Text fx:id="timeStat" strokeType="OUTSIDE" strokeWidth="0.0" text="Final Time: ">
+            <font>
+               <Font size="22.0" />
+            </font>
+         </Text>
+         <Text fx:id="healthStat" strokeType="OUTSIDE" strokeWidth="0.0" text="Final Monument Health: ">
+            <font>
+               <Font size="22.0" />
+            </font>
+         </Text>
+      </children>
+   </VBox>
+</AnchorPane>
