@@ -1,14 +1,15 @@
 # Tower Defense Game
 
-I created this project with a team of 5 in my sophomore year of school.
+I created this project with a team of 5 for a class in school.
 We were tasked with producing a tower defense game in Java and JavaFX, with a shop, buyable towers, enemies, etc.
 
 My personal contributions for this project were:
-- Creating a monetary system and shop
+- Creating a monetary system and shop, allowing player to buy towers and make money
 - Creating the Enemy classes (including the child classes)
-- Creating the Wall Tower
+- Creating the Wall-Building Tower
 - Creating the Map
 - Creating the Tile class, from which all other visual components were formed
+- Creating Controller Classes for various game components
 - Identifying Code Smells
 - Producing UML documentation, duch as Design Class Diagrams and System Sequence Diagrams
 - Managing the Github Repository (different from this one)
